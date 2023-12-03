@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container main">
+
+        <h1 class="heading">TODO APP</h1>
+
+        <div class="main2">
+            <input type="text" placeholder="Add your new todo" aria-label="Second name" id="inp" class="form-control">
+            <!-- <i class="fa-solid fa-tick-plus fa-2xl" id="add" style="color: rgb(24, 147, 163);"></i> -->
+            <ion-icon name="checkmark-done-outline" id="add" style="color: rgb(24, 147, 163);" ></ion-icon>
+
+        </div>
+        <br>
+
+        <div class="listDiv">
+
+            <ul id="ul">
+
+            </ul>
+
+        </div>
+        <button id="clear">Delete All</button>
+
+
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
