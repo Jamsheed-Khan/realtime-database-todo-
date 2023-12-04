@@ -77,10 +77,7 @@ body{
     border-radius: 5px;
     list-style-type: circle !important;
 }
-.list:hover{
-    background-color: rgb(24, 147, 163);
-    color: whitesmoke;
-}
+
 .liTextDiv {
     word-wrap: break-word;
 }
@@ -96,17 +93,17 @@ body{
 .edit:hover{
     color: rgba(18, 221, 18, 0.753);
     cursor: pointer;
-    transform: scale(1.3) !important;
-    transition: 0.5s;
-}
+    /* transform: scale(1.3) !important;
+    transition: 0.5s;*/
+} 
 .deleted{
     color: red;
 }
 .deleted:hover{
     color: red;
     cursor: pointer;
-    transform: scale(1.3) !important;
-    transition: 0.5s;
+    /* transform: scale(1.3) !important;
+    transition: 0.5s; */
     
 }
 #clear{
@@ -116,6 +113,7 @@ body{
     padding: 10px;
     margin-top: 20px;
     border-radius: 5px;
+    display: none;
 }  
 #clear:hover{
     background-color: red;
